@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: #70c9cc;
+}
+
+input {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+label {
+    color: black;
+    font-size: larger;
+}
+
+h1 {
+    margin: 2.5rem auto;
+    color: white;
+}
+
+button {
+    padding: 0.5rem;
+    font-size: medium;
+    border-radius: 1rem;
+    background: transparent;
+    color: rgb(7, 7, 49);
+    border-color: rgb(7, 7, 49);
+    margin: 1rem auto;
+    cursor: pointer;
+}
+button:hover {
+    color: white;
+    background-color: #1e293b;  
+    border-radius: 2rem;
+}
+
+#output {
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
+
+
+.link:hover{
+    background-color: #1e293b;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.footer {
+    padding: 1.5rem 0rem;
+    text-align: center;
+    color: rgb(7, 7, 49);
+    padding-top: 1rem;
+}
+
+.footer .link {
+    color: rgb(7, 7, 49);
+    text-decoration: none;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.content {
+    min-height: 80vh;
+}
