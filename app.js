@@ -28,12 +28,12 @@ function clickHandler() {
     var iPrice = Number(initialPrice.value);
     var stocks = Number(noOfStocks.value);
     var fPrice = Number(finalPrice.value);
-    if (iPrice == "") {
-        result.innerText = "Enter Initial Price."
-    } else if (stocks == "") {
-        result.innerText = "Enter Number of Stocks."
-    } else if (fPrice == "") {
-        result.innerText = "Enter Final Price."
+    if (iPrice == "" || iPrice <=0) {
+        result.innerText = "Enter Initial Price and should be > 0"
+    } else if (stocks == "" || stocks <=0 ) {
+        result.innerText = "Enter Number of Stocks and should be > 0 "
+    } else if (fPrice == "" || fPrice <=0) {
+        result.innerText = "Enter Final Price and should be > 0"
     } else {
         calculateProfitLoss(iPrice, stocks, fPrice);
     }
